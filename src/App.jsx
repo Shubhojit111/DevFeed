@@ -7,7 +7,7 @@ import Notifications from './Notification'
 import Messages from './Messages'
 import NotFound from './Notfound'
 import Landing from './pages/Home/Landing'
-import Home from './pages/Home/Home'
+import Home from './pages/Home/Home.jsx'
 
 
 const App = () => {
