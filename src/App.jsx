@@ -1,13 +1,13 @@
-import React from 'react'
-import Navbar from './components/home/Navbar'
-import Home from './Pages/Home/Home'
-import Explore from './Pages/Explore/Explore'
+
+
+import Explore from './pages/Explore/Explore'
 import { Route, Routes } from 'react-router-dom'
-import Profile from './Pages/Home/Profile'
+import Profile from './pages/Home/Profile'
 import Notifications from './Notification'
 import Messages from './Messages'
 import NotFound from './Notfound'
-import Landing from './Pages/Home/Landing'
+import Landing from './pages/Home/Landing'
+import Home from './pages/Home/Home'
 
 
 const App = () => {
