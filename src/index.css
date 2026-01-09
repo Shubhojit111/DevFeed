@@ -1,0 +1,76 @@
+
+* {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@import "tailwindcss";
+
+body{
+    /* background-color: rgb(5, 72, 138); */
+    background-color: #22272F;
+    color: white;
+}
+
+:root{
+    --primary:#2563EB;
+    --Dark:#0F172A;
+    --Background:#F8FAFC;
+    --muted:#94A3B8;    
+    --border:#E2E8F0;
+
+}
+
+/* *{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+
+
+
+
+
+.center{
+
+    width: 650px;
+
+}
+
+/* Hide scrollbar but allow scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+
+.sidebarNav>.navs:hover {
+  /* background-color: red; */
+  /* border-radius: 12px; */
+  background-color: #1f2933;
+  color: white;
+}
+
+/* rounded-xl bg-[#1f2933] text-white shadow-md */
+
+
+.sidebarNav>.navs:active {
+  
+  background-color: #1f2933;
+  color: #2B7FFF;
+
+  /* span{
+    
+    opacity: 1;
+  
+  } */
+}
+
+.bubble {
+  pointer-events: none;
+  filter: blur(.3px);
+}
+
+
