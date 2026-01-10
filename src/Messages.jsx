@@ -1,6 +1,6 @@
 import { Search, Send } from "lucide-react";
-import LeftSidebar from "./Pages/Home/Sidebar";
-import RightSidebar from "./Pages/Home/RightSidebar";
+import LeftSidebar from "./pages/Home/Sidebar";
+import RightSidebar from "./pages/Home/RightSidebar";
 import { useState } from "react";
 
 
