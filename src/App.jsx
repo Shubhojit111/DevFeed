@@ -1,5 +1,3 @@
-
-
 import Explore from './pages/Explore/Explore'
 import { Route, Routes } from 'react-router-dom'
 import Profile from './pages/Home/Profile'

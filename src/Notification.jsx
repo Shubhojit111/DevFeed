@@ -1,6 +1,6 @@
-import { Bell, BellDot, BellElectric, BellIcon, BellRing, Heart, MessageCircle, UserPlus } from "lucide-react";
-import LeftSidebar from "./Pages/Home/Sidebar";
-import RightSidebar from "./Pages/Home/RightSidebar";
+import {BellRing, Heart, MessageCircle, UserPlus } from "lucide-react";
+import LeftSidebar from "./pages/Home/Sidebar";
+import RightSidebar from "./pages/Home/RightSidebar";
 
 
 const Notifications = () => {

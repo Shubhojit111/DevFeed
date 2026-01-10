@@ -1,7 +1,6 @@
 
 import RightSidebar from './RightSidebar';
 import LeftSidebar from './Sidebar';
-import img from "../../../public/image.png";
 import profile from "../../../public/profile.jpg";
 import { BoomBox, Code, Github, Medal, Trophy, Twitter, X } from 'lucide-react';
 import Project from '../Explore/Project';
@@ -101,7 +100,7 @@ const Profile = () => {
 
             {skills.map(skill=>
               {
-                return <span className='text-[#0DA2E7] bg-[#142C3A] px-3.5 py-1  rounded-xl text-[14px] font-medium '>{skill}</span>
+                return <span key={skill} className='text-[#0DA2E7] bg-[#142C3A] px-3.5 py-1  rounded-xl text-[14px] font-medium '>{skill}</span>
               }
             )}
           </div>
@@ -114,10 +113,10 @@ const Profile = () => {
           </div>
 
           <div className="projects flex flex-col gap-5">
-            <Project name="DevFeed" caption="Built a LinkedIn-style social feed for developers with scalable multi-column layout, post system, profiles, and explore pages using modern WebDev tools." skill1="React" skill2="Tailwind" skill3="Firebase Auth" bookmarked={12}/>
-            <Project name="Organic" caption="Developed a full multipage corporate/agency website with reusable layout architecture, responsive UI, and modern design system using modern WebDev tools." skill1="HTML" skill2="CSS" skill3="Javascript" bookmarked={20}/>
-            <Project name="Waterly" caption="Designed and developed a premium commercial business website with modern UI, responsive layouts, and interactive animations" skill1="React" skill2="Tailwind" skill3="Firebase" bookmarked={7}/>
-            <Project name="Portfolio" caption="Designed and built a modern responsive portfolio website to showcase projects, skills, and more ." skill1="HTML" skill2="Tailwind" skill3="Javascript" bookmarked={13}/>
+            <Project name="DevFeed" caption="Built a LinkedIn-style social feed for developers with scalable multi-column layout, post system, profiles, and explore pages using modern WebDev tools." skills={["React", "TailwindCSS", "GSAP", "Firebase"]} bookmarked={12}/>
+            <Project name="Organic" caption="Developed a full multipage corporate/agency website with reusable layout architecture, responsive UI, and modern design system using modern WebDev tools." skills={["HTML", "TailwindCSS", "JS"]} bookmarked={20}/>
+            <Project name="Waterly" caption="Designed and developed a premium commercial business website with modern UI, responsive layouts, and interactive animations" skills={["React", "TailwindCSS", "GSAP", "Firebase"]} bookmarked={7}/>
+            <Project name="Portfolio" caption="Designed and built a modern responsive portfolio website to showcase projects, skills, and more ." skills={["HTML", "CSS", "Javascript"]} bookmarked={13}/>
           </div>
 
           </div>

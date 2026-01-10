@@ -1,9 +1,8 @@
-import React from 'react'
+
 import LeftSidebar from '../Home/Sidebar'
 import RightSidebar from '../Home/RightSidebar'
 import { Filter, FilterX, Layers, Search, SortAsc, Users } from 'lucide-react'
-import ProfilePic from '../../components/home/ProfilePic'
-import Profile from '../Home/Profile'
+
 import ExploreProfiles from './ExploreProfiles'
 import { ChevronsLeftRightEllipsis } from 'lucide-react';
 

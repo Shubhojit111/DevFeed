@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom"
 import { Sidebar } from "lucide-react"
-import LeftSidebar from "./Pages/Home/Sidebar"
+import LeftSidebar from "./pages/Home/Sidebar"
 
 export default function Layout() {
   return (

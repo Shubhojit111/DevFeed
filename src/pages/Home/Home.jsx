@@ -1,13 +1,8 @@
 import React, { useState } from 'react'
-import Profile from './Profile'
-import LeftTabs from './LeftTabs'
 import Post from './Post'
 import Feed from './Feed'
 import Story from './Story'
-import Right from './Right'
-import Interests from './Interests'
 import LeftSidebar from './Sidebar'
-import Trending from './Trending'
 import RightSidebar from './RightSidebar'
 
 

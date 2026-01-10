@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import ProfilePic from '../../components/home/ProfilePic'
-import { log } from 'three'
+
 
 const ExploreProfiles = ({profilepic, name, username, position, company, skill1, skill2, followerscount}) => {
 
@@ -39,7 +38,7 @@ const ExploreProfiles = ({profilepic, name, username, position, company, skill1,
              <h1 className='text-[14px]'>followers</h1>
            </div>
 
-            <div className="btn bg-[#0E95D3] hover:scale-110 px-4 py-3 rounded-xl text-black items-center flex hover:text-white"
+            <div className="btn bg-[#0E95D3] hover:scale-110 p-3 rounded-xl cursor-pointer text-black items-center flex hover:text-white"
                 onClick={()=>
                 {
                   hasfollowed? setFollowers(followers-1) : setFollowers(followers+1)
