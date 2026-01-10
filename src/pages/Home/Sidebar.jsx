@@ -17,8 +17,8 @@ export default function LeftSidebar() {
 
         {/* LOGO */}
         <div>
-          <div className="flex items-center gap-3 px-2 mb-8 cursor-pointer">
-            <NavLink to="/">
+
+            <NavLink to="/" className="flex items-center gap-3 px-2 mb-8 cursor-pointer">
               <div className="w-13 h-13 rounded-xl bg-linear-to-tr from-cyan-400 to-violet-500 flex items-center justify-center text-2xl font-bold text-white">
               <Code2 size={30} />
             </div>
@@ -27,7 +27,7 @@ export default function LeftSidebar() {
               <p className="text-[16px] text-gray-400">Connect & Share</p>
             </div>
             </NavLink>
-          </div>
+
 
           {/* NAV */}
           <nav className="flex flex-col h-fit gap-1 w-full rounded-xl ">
