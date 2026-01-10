@@ -17,14 +17,16 @@ export default function LeftSidebar() {
 
         {/* LOGO */}
         <div>
-          <div className="flex items-center gap-3 px-2 mb-8">
-            <div className="w-13 h-13 rounded-xl bg-linear-to-tr from-cyan-400 to-violet-500 flex items-center justify-center text-2xl font-bold text-white">
+          <div className="flex items-center gap-3 px-2 mb-8 cursor-pointer">
+            <NavLink to="/">
+              <div className="w-13 h-13 rounded-xl bg-linear-to-tr from-cyan-400 to-violet-500 flex items-center justify-center text-2xl font-bold text-white">
               <Code2 size={30} />
             </div>
             <div>
               <h2 className=" text-xl">Dev<span className="text-blue-500 font-bold">Feed</span></h2>
               <p className="text-[16px] text-gray-400">Connect & Share</p>
             </div>
+            </NavLink>
           </div>
 
           {/* NAV */}
