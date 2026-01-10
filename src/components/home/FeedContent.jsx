@@ -87,7 +87,7 @@ const FeedContent = ({ caption, image, video }) => {
 
                 <div className="flex text-md">
                     
-                    <div className={`like flex gap-1.5 items-center rounded-xl  hover:bg-[#1D262F] cursor-pointer hover:text-[#1183BA] px-3 py-1.5 
+                    <div className={`like flex gap-1.5 items-center rounded-xl  hover:bg-[#1D262F] cursor-pointer hover:text-[#1183BA] px-3 py-1.5 ${hasliked? " text-[#19a1e6] " : " "}
                     `}
                     
                     onClick={()=>
@@ -102,7 +102,7 @@ const FeedContent = ({ caption, image, video }) => {
                         }
                         }
                         >
-                        <ThumbsUp size={20} className={`${hasliked? " fill-[#1183BA] text-[#1183BA] " : " "}`}/>
+                        <ThumbsUp size={20} className={`${hasliked? " fill-[#19a1e6] text-[#19a1e6] " : " "}`}/>
                         <p>{like+6592}</p>
                     </div>
 
@@ -111,7 +111,7 @@ const FeedContent = ({ caption, image, video }) => {
                         <p>254</p>
                     </div>
                     
-                    <div className="like flex gap-1.5 items-center rounded-xl  hover:bg-[#1D262F] cursor-pointer hover:text-[#0dee24] px-3 py-1.5 "
+                    <div className={`like flex gap-1.5 items-center rounded-xl  hover:bg-[#1D262F] cursor-pointer hover:text-[#0dee24] px-3 py-1.5 ${hasshared? "fill-[#0dee24] text-[#0dee24]" : " "} `}
                     onClick={()=>
                     {
                         setShare(hasshared? share-1 : share+1) 
