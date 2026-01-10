@@ -54,26 +54,7 @@ const Explore = () => {
 
 
         <div className="w-[45%] flex flex-col gap-6">
-          <ExploreProfiles 
-            profilepic="https://images.unsplash.com/photo-1766678003099-9df6ac5f3749?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-            name="Shubhojit Deb" 
-            username="@deb.dev" 
-            position="FrontEnd Dev" 
-            company="Techzuno" 
-            skill1="ReactJS" 
-            skill2="GSAP" 
-            followerscount={69} />
-
-          <ExploreProfiles
-            profilepic="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?w=500"
-            name="Aman Verma"
-            username="@aman.codes"
-            position="Frontend Engineer"
-            company="Zomato"
-            skill1="ReactJS"
-            skill2="Tailwind"
-            followerscount={142}
-          />
+         
 
           <ExploreProfiles
             profilepic="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500"

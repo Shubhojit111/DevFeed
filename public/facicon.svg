@@ -1,0 +1,31 @@
+<svg viewBox="0 0 512 350" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Lines -->
+<g stroke="#4A8DFF" stroke-width="20" stroke-linecap="round">
+
+  <!-- Outer frame -->
+  <line x1="80"  y1="80"  x2="260" y2="80"/>
+  <line x1="260" y1="80"  x2="420" y2="180"/>
+  <line x1="420" y1="180" x2="260" y2="300"/>
+  <line x1="260" y1="300" x2="80"  y2="300"/>
+
+  <!-- Inner connections -->
+  <line x1="170" y1="190" x2="80"  y2="80"/>
+  <line x1="170" y1="190" x2="260" y2="80"/>
+  <line x1="170" y1="190" x2="420" y2="180"/>
+  <line x1="170" y1="190" x2="260" y2="300"/>
+  <line x1="170" y1="190" x2="80"  y2="300"/>
+
+</g>
+
+<!-- Outer nodes -->
+<circle cx="80"  cy="80"  r="32" fill="#4A8DFF"/>
+<circle cx="260" cy="80"  r="32" fill="#4A8DFF"/>
+<circle cx="420" cy="180" r="32" fill="#4A8DFF"/>
+<circle cx="260" cy="300" r="32" fill="#4A8DFF"/>
+<circle cx="80"  cy="300" r="32" fill="#4A8DFF"/>
+
+<!-- Center node -->
+<circle cx="170" cy="190" r="40" fill="#6FFFFF"/>
+
+</svg>

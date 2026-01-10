@@ -81,11 +81,11 @@ export default function Landing() {
         </p>
 
         <div className="mt-8 flex gap-4">
-          <Link to="/app" className="bg-[#0DA2E7] text-black px-7 py-3 rounded-xl hover:scale-95 transition">
+          <Link to="/app" className="bg-[#0DA2E7] text-black px-7 py-3 rounded-xl hover:scale-95 hover:text-gray-200 transition">
             Go to App <ArrowRight className="inline ml-1" size={18}/>
           </Link>
           <button className="border border-white/20 px-7 py-3 rounded-xl hover:bg-white/5 transition">
-            Explore Features
+            Sign Up
           </button>
         </div>
       </div>
